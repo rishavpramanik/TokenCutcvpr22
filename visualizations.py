@@ -34,7 +34,7 @@ def visualize_predictions(img, pred, vis_folder, im_name, save=True):
         print(f"Predictions saved at {pltname}.")
     return image
   
-def visualize_predictions_gt(img, pred, gt, vis_folder, im_name, dim, scales, save=True):
+def visualize_predictions_gt(img, pred, gt, vis_folder, im_name, save=True):
     """
     Visualization of the predicted box and the corresponding seed patch.
     """
